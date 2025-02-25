@@ -1,0 +1,59 @@
+conda remove --name new_ares --all
+
+step 1 : conda create -n new_ares11 python=3.11.0
+
+step 2 : conda activate new_ares11
+
+step 3 : python -m ensurepip --default-pip
+
+step 4 : python -m pip install --upgrade pip
+
+step 5 : pip install python-doctr[tf]==0.9.0
+
+step 6 : pip install tensorflow==2.13.0 keras==2.13.1
+
+step 7 : pip install pytesseract
+
+step 8 : pip install pdf2image
+
+step 9 : pip install PyPDF2
+
+step 10: pip install pandas
+
+step 11: pip install fuzzywuzzy
+
+step 12: pip install pyodbc
+
+step 13: pip install flask
+
+step 14: pip install flask-wtf
+
+step 15: pip install pdfplumber
+
+step 16: pip install img2pdf
+
+step 17: python
+
+step 18: from doctr.io import DocumentFile
+
+step 19: from doctr.models import ocr_predictor
+
+step 20: model = ocr_predictor(pretrained=True)
+
+step 21: doc = DocumentFile.from_pdf(r"C:\Users\Sai Vivek\Downloads\B730_NZV1028_91702510.pdf")
+
+step 22: result = model(doc)
+
+step 23: print(result)
+
+
+
+
+with python 3.11.0  - 180 files
+with python 3.10.0  - 202 files
+
+
+
+
+
+
